@@ -1,0 +1,20 @@
+---
+title: "Aid Worker Incidents: A Global Analysis"
+subtitle: "DSAN 2025 Scholarship Project"
+author: "Nandini Kodali"
+format:
+    html: 
+        toc: true
+        code-copy: true
+        code-overflow: wrap
+        mainfont: "Monospace"
+        code-annotations: hover
+
+execute:
+    echo: true
+    warning: false
+    message: false
+    freeze: auto
+lightbox: auto
+embed-resources: true
+---
