@@ -1,23 +1,59 @@
 ---
-title: "Aid Worker Incidents: A Global Analysis"
-subtitle: "DSAN 2025 Scholarship Project"
-author: "Nandini Kodali"
 format:
-    html:
-        smooth-scroll: true
-        code-copy: true
-        code-overflow: wrap
-        mainfont: "Monospace"
-
+  html:
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
+    mainfont: "Monospace"
 execute:
-    echo: true
-    warning: false
-    message: false
-    freeze: auto
+  echo: true
+  warning: false
+  message: false
+  freeze: auto
 lightbox: auto
 editor: visual
 embed-resources: true
 ---
+
+```{=html}
+<style>
+.banner-wrapper {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url("plots/intro_img.avif");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: felx-start;
+  justify-content: center;
+}
+
+.banner-text {
+  color: black;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+.banner-text h1 {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.banner-text p {
+  font-size: 1.1rem;
+  margin: 3px 0 0;
+}
+</style>
+
+<div class="banner-wrapper">
+  <div class="banner-text">
+    <h1>In Harm’s Way: A Data Story on Aid Worker Vulnerability</h1>
+    <p><strong>Nandini Kodali</strong></p>
+  </div>
+</div>
+```
 
 ## A Global View of Threats to Aid Workers
 
