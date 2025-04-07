@@ -321,26 +321,18 @@ function updateActorGroup() {
 }
 </script>
 
+## Agency Type vs Attack Context
 
 <iframe src="../plots/heatmap_attackcontext_agency.html" width="100%" height="500px" style="border: none;"></iframe>
 
-::: {.callout-note appearance="card" icon="bar-chart" title="Agency Vulnerability by Attack Context"}
+This heatmap offers a granular look at how different types of humanitarian agencies are impacted across various attack contexts. A striking pattern emerges: **INGOs (International NGOs)** consistently bear the brunt of violence, representing **32.5% of all ambushes** and **30.7% of individual attacks**. Their expansive reach across volatile regions and frequent field mobility make them particularly exposed to road-based assaults and targeted attacks.
 
-This heatmap reveals how different types of humanitarian agencies experience violence — and under what conditions.
+The **United Nations** follows closely, accounting for **17.7% of ambushes** and **13.9% of individual attacks**, with an additional **11.5% of combat/crossfire incidents**. Their prominent presence in conflict-heavy zones like *South Sudan*, *Syria*, and *Afghanistan* likely contributes to their high visibility and vulnerability.
 
-**INGOs (International NGOs)** are the most affected overall, accounting for nearly **32% of all ambushes** and **30% of individual attacks**. Their wide operational footprint and presence in high-risk zones make them particularly vulnerable when traveling or during field engagement.
+**National NGOs (NNGOs)** face significant exposure in **combat or crossfire scenarios**, where they make up **20.2%** of such incidents. This is a reminder that local staff are often embedded in frontline communities, operating without the same security protocols or diplomatic protections available to international actors.
 
-The **United Nations** accounts for about **17% of ambushes** and **13% of individual attacks**, with additional risks in **combat/crossfire (14%)**. Their symbolic and political visibility likely plays a role in these patterns, especially in conflict zones such as **South Sudan**, **DRC**, and **Gaza**.
+While **ICRC** and **Red Cross/Red Crescent (NRCS and IFRC)** agencies see fewer incidents overall, their risk is concentrated in **ambushes** and **conflict settings**, reflecting their mandate to work in highly insecure, war-affected areas. For example, **ICRC personnel** have been targeted during medical evacuations and convoy movements, highlighting the need for additional protective measures even when neutrality is a core principle.
 
-**National NGOs (NNGOs)** are disproportionately affected during **combat/crossfire**, making up over **19%** of such incidents. This highlights their presence in highly insecure environments, often with limited security resources or diplomatic protections.
+Finally, a notable **15.8% of all incidents fall into an "unknown" attack context**, underscoring gaps in field reporting or chaotic operational environments where details are lost or unverified. This limitation not only affects agency response but also hampers global coordination and learning.
 
-**The ICRC and Red Cross/Red Crescent Movement** collectively face fewer incidents in absolute terms, but their risks are concentrated in **ambush (ICRC: 3.5%)** and **combat zones** — consistent with their work in conflict and post-conflict areas.
-
-Across all agencies, nearly **18% of attacks** occur under **unknown contexts**. This reflects the limitations of field reporting in unstable environments and points to the need for better documentation and accountability systems.
-
-📌 These patterns call for **tailored security measures**:
-- **INGOs** should invest in secure transportation, route variation, and field risk assessments.
-- **UN missions** must align deployments with intelligence coordination and conflict monitoring.
-- **NNGOs** need scalable training and support, especially for conflict-prone outreach.
-
-:::
+Together, these trends emphasize the importance of **context-specific security strategies**. INGOs should prioritize mobility risk mitigation and route intelligence. The UN may benefit from closer coordination with peacekeeping forces and political actors. NNGOs would be well-served by strengthened partnerships and access to shared security resources, especially in rural and post-conflict settings.
