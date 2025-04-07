@@ -20,10 +20,11 @@ embed-resources: true
 ---
 
 ## A Global View of Threats to Aid Workers
-Humanitarian crises span borders, but so do the dangers faced by the people responding to them.
 
-The interactive world map below provides a **time-lapse visualization of attacks on aid workers** from **1997 to 2025**, across every region where conflict and disaster intersect with humanitarian operations.
+In conflict zones, areas struck by disaster, and communities in crisis, humanitarian workers play a vital role in delivering aid and support. But over time, these workers have increasingly found themselves facing risks on the job — risks that go beyond the challenging conditions they operate in.
 
-Each red bubble represents the **total number of aid workers affected** in a specific country during a given year — including those **killed, wounded, or kidnapped**. The **size of the bubble grows** with the severity of impact, while the **animation timeline** helps track how these patterns have shifted over the past three decades.
+What were once isolated events have gradually turned into more widespread patterns of violence. From Africa to the Middle East and South Asia, incidents involving aid workers have emerged across a growing number of countries. These events are not random — they reflect complex dynamics on the ground, influenced by political, social, and security factors.
 
-<iframe src="../plots/worldmap_totalaffected.html" width="100%" height="600px" frameborder="0"></iframe>
+This global overview offers a starting point. In the sections that follow, we’ll take a closer look at where and how these incidents have unfolded over the years, which groups have been affected the most, and how the nature of these threats has evolved.
+
+<iframe src="../plots/worldmap_totalaffected.html" width="100%" height="550px" frameborder="0"></iframe>
