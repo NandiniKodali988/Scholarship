@@ -320,3 +320,27 @@ function updateActorGroup() {
   narrative.innerHTML = narratives[select];
 }
 </script>
+
+
+<iframe src="../plots/heatmap_attackcontext_agency.html" width="100%" height="500px" style="border: none;"></iframe>
+
+::: {.callout-note appearance="card" icon="bar-chart" title="Agency Vulnerability by Attack Context"}
+
+This heatmap reveals how different types of humanitarian agencies experience violence — and under what conditions.
+
+**INGOs (International NGOs)** are the most affected overall, accounting for nearly **32% of all ambushes** and **30% of individual attacks**. Their wide operational footprint and presence in high-risk zones make them particularly vulnerable when traveling or during field engagement.
+
+The **United Nations** accounts for about **17% of ambushes** and **13% of individual attacks**, with additional risks in **combat/crossfire (14%)**. Their symbolic and political visibility likely plays a role in these patterns, especially in conflict zones such as **South Sudan**, **DRC**, and **Gaza**.
+
+**National NGOs (NNGOs)** are disproportionately affected during **combat/crossfire**, making up over **19%** of such incidents. This highlights their presence in highly insecure environments, often with limited security resources or diplomatic protections.
+
+**The ICRC and Red Cross/Red Crescent Movement** collectively face fewer incidents in absolute terms, but their risks are concentrated in **ambush (ICRC: 3.5%)** and **combat zones** — consistent with their work in conflict and post-conflict areas.
+
+Across all agencies, nearly **18% of attacks** occur under **unknown contexts**. This reflects the limitations of field reporting in unstable environments and points to the need for better documentation and accountability systems.
+
+📌 These patterns call for **tailored security measures**:
+- **INGOs** should invest in secure transportation, route variation, and field risk assessments.
+- **UN missions** must align deployments with intelligence coordination and conflict monitoring.
+- **NNGOs** need scalable training and support, especially for conflict-prone outreach.
+
+:::
