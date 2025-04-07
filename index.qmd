@@ -44,10 +44,7 @@ These patterns highlight not only where aid workers are most at risk, but also h
 
 <iframe src="../plots/total_affected_over_time.html" width="800" height="500" style="flex: 0 0 auto; border: none;"></iframe>
 
-
-## Explore Regional Insights
-
-Click on a region to open its interactive timeline.
+Explore Regional Insights
 
 ```{=html}
 <style>
