@@ -94,77 +94,139 @@ Click on a region to open its interactive timeline.
 
 
 <!-- Modal: Africa -->
+<!-- Modal: Africa -->
 <div class="modal fade" id="modalAfrica" tabindex="-1" aria-labelledby="modalAfricaLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
+
+      <!-- Header with close button only -->
       <div class="modal-header">
-        <h5 class="modal-title" id="modalAfricaLabel">Africa: Total Affected Over Time</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+
       <div class="modal-body">
+        <!-- Plot iframe -->
         <iframe src="../plots/total_affected/africa_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+
+        <!-- Narrative -->
+        <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
+          <p>From the early 2000s through the present, incidents have steadily increased — often peaking during civil conflicts and post-election violence in countries like South Sudan, Somalia, and the DR Congo.</p>
+          
+          <p>Notably, the rise post-2017 coincides with complex, multi-actor conflicts, often involving non-state armed groups operating in unstable political environments. These spikes aren’t isolated; they reflect a persistent pattern of risk for humanitarian workers across the continent.</p>
+
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
+<!-- Modal: Asia -->
 <!-- Modal: Asia -->
 <div class="modal fade" id="modalAsia" tabindex="-1" aria-labelledby="modalAsiaLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
+
+      <!-- Header with close button only -->
       <div class="modal-header">
-        <h5 class="modal-title" id="modalAsiaLabel">Asia: Total Affected Over Time</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+
       <div class="modal-body">
+        <!-- Plot iframe -->
         <iframe src="../plots/total_affected/asia_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+
+        <!-- Narrative -->
+        <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
+          <p> Asia’s trajectory reveals a series of sharp increases and dips, with a notable peak in 2013. This spike reflects some of the deadliest periods for aid workers — particularly in countries like Afghanistan and Pakistan, where insecurity and targeted violence were widespread.</p>
+
+          <p>While there's been a general decline since that peak, the numbers remain consistently high compared to earlier years. This suggests that although international focus may shift, the risks for humanitarians in the region persist, especially in fragile and post-conflict settings.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 
 <!-- Modal: Europe -->
 <div class="modal fade" id="modalEurope" tabindex="-1" aria-labelledby="modalEuropeLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
+
+      <!-- Header with close button only -->
       <div class="modal-header">
-        <h5 class="modal-title" id="modalEuropeLabel">Europe: Total Affected Over Time</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+
       <div class="modal-body">
+        <!-- Plot iframe -->
         <iframe src="../plots/total_affected/europe_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+
+        <!-- Narrative -->
+        <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
+          <p>Europe’s trendline tells a story of relatively low impact — until a striking surge in 2022.</p>
+
+          <p>This sudden spike reflects the repercussions of the war in Ukraine, where the humanitarian landscape rapidly deteriorated. Conflict zones that were once rare in Europe reemerged, and aid operations became increasingly hazardous.</p>
+
+          <p>Before this, Europe had experienced some of the lowest numbers globally, often related to isolated or politically motivated incidents. The post-2022 trend reminds us that even traditionally stable regions can become flashpoints — and that the need for protective mechanisms is universal, not regional.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 
 <!-- Modal: Middle East -->
 <div class="modal fade" id="modalMiddleEast" tabindex="-1" aria-labelledby="modalMiddleEastLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
+
+      <!-- Header with close button -->
       <div class="modal-header">
-        <h5 class="modal-title" id="modalMiddleEastLabel">Middle East: Total Affected Over Time</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+
       <div class="modal-body">
+        <!-- Embedded Plot -->
         <iframe src="../plots/total_affected/middle_east_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+
+        <!-- Narrative -->
+        <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
+          <p>The Middle East’s trajectory remained relatively low and stable for nearly two decades — until a surge beginning in 2022.</p>
+
+          <p>This jump mirrors the escalation of armed conflicts in the region, particularly in areas already affected by longstanding humanitarian emergencies. Aid workers in countries such as Syria, Yemen, and Palestine have increasingly found themselves on the frontlines — not just of aid, but of violence itself.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
+
 <!-- Modal: South America -->
 <div class="modal fade" id="modalSouthAmerica" tabindex="-1" aria-labelledby="modalSouthAmericaLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
+
+      <!-- Header with only close button -->
       <div class="modal-header">
-        <h5 class="modal-title" id="modalSouthAmericaLabel">South America: Total Affected Over Time</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
+
       <div class="modal-body">
+        <!-- Embedded plot -->
         <iframe src="../plots/total_affected/south_america_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+
+        <!-- Narrative -->
+        <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
+          <p>South America has seen relatively fewer aid worker attacks compared to more conflict-prone regions, but the risk is far from zero.</p>
+
+          <p>The spikes in 2003 and especially in 2020 reflect moments where aid operations intersected with local unrest or organized violence. These incidents, while infrequent, can still have a chilling effect on humanitarian access in vulnerable communities.</p>
+
+          <p>As political and environmental volatility increases, continued vigilance is essential — especially in areas where fragile governance or organized crime poses a threat to neutral humanitarian actors.</p>
+        </div>
       </div>
     </div>
   </div>
 </div>
+
 ```
