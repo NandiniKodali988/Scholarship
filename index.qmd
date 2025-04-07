@@ -57,7 +57,7 @@ embed-resources: true
 
 ## A Global View of Threats to Aid Workers
 
-In conflict zones, areas struck by disaster, and communities in crisis, humanitarian workers play a vital role in delivering aid and support. But over time, these workers have increasingly found themselves facing risks on the job — risks that go beyond the challenging conditions they operate in.
+In crisis zones around the world — from natural disasters to active conflicts — humanitarian workers serve on the front lines of aid delivery. But increasingly, they are also on the front lines of danger.
 
 What were once isolated events have gradually turned into more widespread patterns of violence. From Africa to the Middle East and South Asia, incidents involving aid workers have emerged across a growing number of countries. These events are not random — they reflect complex dynamics on the ground, influenced by political, social, and security factors.
 
