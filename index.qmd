@@ -18,3 +18,12 @@ execute:
 lightbox: auto
 embed-resources: true
 ---
+
+## A Global View of Threats to Aid Workers
+Humanitarian crises span borders, but so do the dangers faced by the people responding to them.
+
+The interactive world map below provides a **time-lapse visualization of attacks on aid workers** from **1997 to 2025**, across every region where conflict and disaster intersect with humanitarian operations.
+
+Each red bubble represents the **total number of aid workers affected** in a specific country during a given year — including those **killed, wounded, or kidnapped**. The **size of the bubble grows** with the severity of impact, while the **animation timeline** helps track how these patterns have shifted over the past three decades.
+
+<iframe src="../plots/worldmap_totalaffected.html" width="100%" height="600px" frameborder="0"></iframe>
