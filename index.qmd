@@ -66,21 +66,18 @@ This global overview offers a starting point. In the sections that follow, we’
 <iframe src="../plots/worldmap_totalaffected.html" width="100%" height="550px" frameborder="0"></iframe>
 
 
-## Regional Trends Over Time
+## Escalating Danger: Aid Worker Attacks Since 1997
 
-Over the last three decades, the risks facing humanitarian workers have steadily increased.
-
-This line chart shows how the total number of aid workers affected — including those killed, wounded, or kidnapped — has changed year over year.
-
-While there are moments of relative calm, the general trend reveals a sobering reality: conflict zones have become increasingly dangerous for those trying to help.
-
-Spikes in the data often correlate with major geopolitical crises — such as the wars in Afghanistan, the rise of conflict in South Sudan and Syria, and more recently, the escalation of violence in the Occupied Palestinian Territories.
-
-These patterns highlight not only where aid workers are most at risk, but also how global instability directly affects the safety of those on the front lines of relief efforts.
+This line chart shows how the total number of aid workers affected — including those killed, wounded, or kidnapped — has changed year over year. This timeline reveals a clear trend: attacks on humanitarian workers have surged over the past two decades. From just over 50 reported incidents in the late 1990s, the numbers have climbed dramatically, peaking above 400 in multiple recent years.
 
 <iframe src="../plots/total_affected_over_time.html" width="800" height="500" style="flex: 0 0 auto; border: none;"></iframe>
 
-Explore Regional Insights
+
+Spikes in the data often correlate with major geopolitical crises — such as the wars in Afghanistan, the rise of conflict in South Sudan and Syria, and more recently, the escalation of violence in the Occupied Palestinian Territories.
+
+The general trend points to an important shift: operating in conflict zones has become steadily more challenging for humanitarian workers.
+
+**Explore Regional Insights**
 
 ```{=html}
 <style>
@@ -173,7 +170,7 @@ Explore Regional Insights
         <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
           <p> Asia’s trajectory reveals a series of sharp increases and dips, with a notable peak in 2013. This spike reflects some of the deadliest periods for aid workers — particularly in countries like Afghanistan and Pakistan, where insecurity and targeted violence were widespread.</p>
 
-          <p>While there's been a general decline since that peak, the numbers remain consistently high compared to earlier years. This suggests that although international focus may shift, the risks for humanitarians in the region persist, especially in fragile and post-conflict settings.</p>
+          <p>Although the numbers have gradually declined since that high point, they continue to remain elevated relative to earlier years. This ongoing trend indicates that operational risks remain significant in the region, particularly in areas affected by conflict, political instability, or limited state presence.</p>
         </div>
       </div>
     </div>
@@ -200,8 +197,6 @@ Explore Regional Insights
           <p>Europe’s trendline tells a story of relatively low impact — until a striking surge in 2022.</p>
 
           <p>This sudden spike reflects the repercussions of the war in Ukraine, where the humanitarian landscape rapidly deteriorated. Conflict zones that were once rare in Europe reemerged, and aid operations became increasingly hazardous.</p>
-
-          <p>Before this, Europe had experienced some of the lowest numbers globally, often related to isolated or politically motivated incidents. The post-2022 trend reminds us that even traditionally stable regions can become flashpoints — and that the need for protective mechanisms is universal, not regional.</p>
         </div>
       </div>
     </div>
@@ -254,8 +249,7 @@ Explore Regional Insights
           <p>South America has seen relatively fewer aid worker attacks compared to more conflict-prone regions, but the risk is far from zero.</p>
 
           <p>The spikes in 2003 and especially in 2020 reflect moments where aid operations intersected with local unrest or organized violence. These incidents, while infrequent, can still have a chilling effect on humanitarian access in vulnerable communities.</p>
-
-          <p>As political and environmental volatility increases, continued vigilance is essential — especially in areas where fragile governance or organized crime poses a threat to neutral humanitarian actors.</p>
+          
         </div>
       </div>
     </div>
