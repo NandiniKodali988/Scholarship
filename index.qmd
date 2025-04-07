@@ -339,3 +339,5 @@ Together, these trends emphasize the importance of **context-specific security s
 
 
 <iframe src="../plots/grp_context_top7/total_affected_7.html" width="100%" height="500px" style="border: none;"></iframe>
+
+![](plots/circlular_bar_charts/Afghanistan.png){width="50%"}
