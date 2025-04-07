@@ -336,3 +336,6 @@ While **ICRC** and **Red Cross/Red Crescent (NRCS and IFRC)** agencies see fewer
 Finally, a notable **15.8% of all incidents fall into an "unknown" attack context**, underscoring gaps in field reporting or chaotic operational environments where details are lost or unverified. This limitation not only affects agency response but also hampers global coordination and learning.
 
 Together, these trends emphasize the importance of **context-specific security strategies**. INGOs should prioritize mobility risk mitigation and route intelligence. The UN may benefit from closer coordination with peacekeeping forces and political actors. NNGOs would be well-served by strengthened partnerships and access to shared security resources, especially in rural and post-conflict settings.
+
+
+<iframe src="../plots/grp_context_top7/total_affected_7.html" width="100%" height="500px" style="border: none;"></iframe>
