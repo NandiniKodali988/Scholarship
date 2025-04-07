@@ -249,7 +249,7 @@ The general trend points to an important shift: operating in conflict zones has 
           <p>South America has seen relatively fewer aid worker attacks compared to more conflict-prone regions, but the risk is far from zero.</p>
 
           <p>The spikes in 2003 and especially in 2020 reflect moments where aid operations intersected with local unrest or organized violence. These incidents, while infrequent, can still have a chilling effect on humanitarian access in vulnerable communities.</p>
-          
+
         </div>
       </div>
     </div>
@@ -266,17 +266,15 @@ This bump chart reveals how the burden of violence has shifted across different 
 
 <iframe src="../plots/bumpchart_totalaffected_agency.html" width="100%" height="500px" style="border: none;"></iframe>
 
-At the top of the chart is the **International NGO (INGO) sector**, with a staggering **3,497 aid workers affected** — by far the highest. These organizations often operate across multiple conflict zones and are highly visible on the ground, making them frequent targets.
+International NGOs (INGOs) consistently top the chart with 3,497 affected workers, reflecting their widespread presence in high-risk areas. National NGOs (NNGOs) follow with 2,055 affected, often operating in frontline roles with limited protection.
 
-Following them are **National NGOs (NNGOs)** with **2,055 affected**. While they may not dominate global headlines, NNGOs often work in the most volatile areas, especially in **South Sudan, Syria, and DR Congo** — where local staff face disproportionate risk.
+UN agencies, though heavily resourced and coordinated, are not immune: 1,775 workers have been impacted, especially in post-2000 conflicts like Iraq and Afghanistan, where they were seen as representatives of international political agendas.
 
-**UN agencies**, though heavily resourced and coordinated, are not immune: **1,775 workers** have been impacted, especially in post-2000 conflicts like Iraq and Afghanistan, where they were seen as representatives of international political agendas.
+The Red Cross movement (split into NRCS and IFRC – 521 and ICRC – 204) generally operates under a protection mandate and neutral stance. Their lower totals may reflect more secure access or different operational strategies, but they remain at risk, particularly in civil war zones.
 
-**The Red Cross movement** (split into **NRCS and IFRC – 521** and **ICRC – 204**) generally operates under a protection mandate and neutral stance. Their lower totals may reflect more secure access or different operational strategies, but they remain at risk, particularly in civil war zones.
+Finally, ‘Other’ organizations, including faith-based or smaller civil society groups, account for 105 affected workers — a lower figure, but still significant in the context of under-reported violence in some regions.
 
-Finally, **‘Other’ organizations**, including faith-based or smaller civil society groups, account for **105 affected workers** — a lower figure, but still significant in the context of under-reported violence in some regions.
-
-These differences aren't just about numbers — they reflect the **geopolitical roles, visibility, and proximity to frontline danger** that define each organization's work. The gap between **INGOs and ICRC**, for instance, says as much about mission type and perception as it does about scale.
+The data reveals how visibility, operational scope, and perceived affiliations influence risk. The stark gap between INGOs and others isn’t just about size — it reflects how different organizations are positioned in the geopolitical landscape of humanitarian aid.
 
 
 ## Who is Behind the Violence?
