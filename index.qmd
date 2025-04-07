@@ -269,5 +269,54 @@ Among the identified groups, **Non-State Armed Groups (NSAGs)** are responsible 
 This breakdown underscores the **political and operational complexity** of humanitarian work. Whether deliberate or opportunistic, these attacks disrupt relief and **undermine trust between communities and responders**.
 
 
+## Attack Contexts by Actor Group
 
+<div class="mb-3">
+  <label for="actorSelect" class="form-label fw-bold">Select Actor Group:</label>
+  <select id="actorSelect" class="form-select" onchange="updateActorGroup()">
+    <option value="Non-state_Armed_Group">Non-state Armed Group</option>
+    <option value="State_Actor">State Actor</option>
+    <option value="Criminal">Criminal</option>
+    <option value="Individual">Individual</option>
+    <option value="Unknown">Unknown</option>
+  </select>
+</div>
 
+<!-- Plot container -->
+<div id="actorPlot" class="my-4">
+  <iframe src="../plots/attack_contexts/Non-state_Armed_Group.html" width="100%" height="550px" style="border: none;"></iframe>
+</div>
+
+<!-- Narrative container -->
+<div id="actorNarrative" class="mt-3">
+  <p>Non-state armed groups account for approximately 31% of all recorded attacks. Nearly 48%of these are ambushes (474), followed by raids (175) and detentions (104). These patterns suggest highly coordinated, disruptive intent — often observed in areas with insurgent activity like South Sudan, Somalia, or Syria. Agencies working in such zones should emphasize unpredictable routing, real-time communication protocols, and preemptive negotiations with neutral local stakeholders.</p>
+</div>
+
+<script>
+const narratives = {
+  "Non-state_Armed_Group": `
+    <p>Non-state armed groups account for approximately 31% of all recorded attacks. Nearly 48%of these are ambushes (474), followed by raids (175) and detentions (104). These patterns suggest highly coordinated, disruptive intent — often observed in areas with insurgent activity like South Sudan, Somalia, or Syria. Agencies working in such zones should emphasize unpredictable routing, real-time communication protocols, and preemptive negotiations with neutral local stakeholders.</p>
+  `,
+  "State_Actor": `
+    <p>State-linked forces are responsible for 13% of incidents. Over half occur during combat or crossfire (301), and others involve detentions (44) or raids (32). These typically arise in politically sensitive areas like Gaza or Myanmar. Recommended protocols include active legal briefings, coordination with diplomatic contacts, and clearly marked or de-branded visibility in volatile regions.</p>
+  `,
+  "Criminal": `
+    <p>Criminal groups represent 2.3% of attacks, but often strike opportunistically. Their attacks are largely individual assaults (52) and ambushes (42), reflecting threats to in-transit aid or goods. Strategies like route randomization, secure cash handling, and trusted driver networks are essential when working in fragile urban environments or along transport corridors.</p>
+  `,
+  "Individual": `
+    <p>Roughly 5.5% of incidents stem from individuals acting alone or in spontaneous groups. The majority (176) are personal attacks, with a notable share from mob violence. These often relate to unmet expectations or local tensions. Stronger local communication, clear aid criteria, and culturally sensitive field teams can help preempt these flashpoints.</p>
+  `,
+  "Unknown": `
+    <p>Nearly 48% of attacks are attributed to unknown actors — often in high-conflict zones with no formal attribution process. These include 806 ambushes and 464 individual attacks. The ambiguity complicates prevention. Agencies should invest in better incident tracking, field reporting, and shared security intel to uncover patterns and reduce risk exposure in these blind spots.</p>
+  `
+};
+
+function updateActorGroup() {
+  const select = document.getElementById("actorSelect").value;
+  const plot = document.querySelector("#actorPlot iframe");
+  const narrative = document.getElementById("actorNarrative");
+
+  plot.src = `../plots/attack_contexts/${select}.html`;
+  narrative.innerHTML = narratives[select];
+}
+</script>
