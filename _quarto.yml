@@ -1,10 +1,9 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
 
 website:
   title: "Conflict and Compassion"
-  site-url: "https://nandinikodali988.github.io/Scholarship/"
   navbar:
     left:
       - text: Home
@@ -23,3 +22,6 @@ execute:
   freeze: auto
 bibliography: references.bib
 nocite: '@*'
+resources:
+  - plots/**
+

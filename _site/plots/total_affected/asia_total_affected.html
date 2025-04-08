@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300, "stroke": null}, "axis": {"titleFont": "Courier New", "titleFontSize": 16}, "title": {"font": "Courier New", "fontSize": 18}}, "layer": [{"mark": {"type": "line", "color": "red"}, "encoding": {"tooltip": [{"field": "Year", "type": "nominal"}, {"field": "Total affected", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0, "labelFont": "Courier New", "labelFontSize": 14, "values": ["1997", "2000", "2003", "2006", "2009", "2012", "2015", "2018", "2021", "2024"]}, "field": "Year", "title": "Year", "type": "nominal"}, "y": {"axis": {"grid": false, "labelFont": "Courier New", "labelFontSize": 14}, "field": "Total affected", "title": "Total Affected", "type": "quantitative"}}, "selection": {"selector024": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}}, {"mark": {"type": "point", "color": "red", "filled": true, "size": 80}, "encoding": {"tooltip": [{"field": "Year", "type": "nominal"}, {"field": "Total affected", "type": "quantitative"}], "x": {"field": "Year", "type": "nominal"}, "y": {"field": "Total affected", "type": "quantitative"}}}], "data": {"name": "data-b4d1eba547cf29e52f19de5977a9a385"}, "height": 400, "title": "Asia: Total Aid Workers Affected Over Time", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-b4d1eba547cf29e52f19de5977a9a385": [{"Year": "1997", "Group": "Asia", "Total affected": 11}, {"Year": "1998", "Group": "Asia", "Total affected": 4}, {"Year": "1999", "Group": "Asia", "Total affected": 13}, {"Year": "2000", "Group": "Asia", "Total affected": 30}, {"Year": "2001", "Group": "Asia", "Total affected": 23}, {"Year": "2002", "Group": "Asia", "Total affected": 14}, {"Year": "2003", "Group": "Asia", "Total affected": 73}, {"Year": "2004", "Group": "Asia", "Total affected": 74}, {"Year": "2005", "Group": "Asia", "Total affected": 48}, {"Year": "2006", "Group": "Asia", "Total affected": 99}, {"Year": "2007", "Group": "Asia", "Total affected": 115}, {"Year": "2008", "Group": "Asia", "Total affected": 107}, {"Year": "2009", "Group": "Asia", "Total affected": 157}, {"Year": "2010", "Group": "Asia", "Total affected": 164}, {"Year": "2011", "Group": "Asia", "Total affected": 133}, {"Year": "2012", "Group": "Asia", "Total affected": 168}, {"Year": "2013", "Group": "Asia", "Total affected": 314}, {"Year": "2014", "Group": "Asia", "Total affected": 200}, {"Year": "2015", "Group": "Asia", "Total affected": 141}, {"Year": "2016", "Group": "Asia", "Total affected": 124}, {"Year": "2017", "Group": "Asia", "Total affected": 106}, {"Year": "2018", "Group": "Asia", "Total affected": 138}, {"Year": "2019", "Group": "Asia", "Total affected": 180}, {"Year": "2020", "Group": "Asia", "Total affected": 135}, {"Year": "2021", "Group": "Asia", "Total affected": 158}, {"Year": "2022", "Group": "Asia", "Total affected": 91}, {"Year": "2023", "Group": "Asia", "Total affected": 52}, {"Year": "2024", "Group": "Asia", "Total affected": 113}, {"Year": "2025", "Group": "Asia", "Total affected": 12}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

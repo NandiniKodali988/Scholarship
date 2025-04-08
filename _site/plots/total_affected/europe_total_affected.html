@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .error {
+        color: red;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.17.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300, "stroke": null}, "axis": {"titleFont": "Courier New", "titleFontSize": 16}, "title": {"font": "Courier New", "fontSize": 18}}, "layer": [{"mark": {"type": "line", "color": "red"}, "encoding": {"tooltip": [{"field": "Year", "type": "nominal"}, {"field": "Total affected", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0, "labelFont": "Courier New", "labelFontSize": 14, "values": ["1997", "2000", "2003", "2009", "2022", "2025"]}, "field": "Year", "title": "Year", "type": "nominal"}, "y": {"axis": {"grid": false, "labelFont": "Courier New", "labelFontSize": 14}, "field": "Total affected", "title": "Total Affected", "type": "quantitative"}}, "selection": {"selector025": {"type": "interval", "bind": "scales", "encodings": ["x", "y"]}}}, {"mark": {"type": "point", "color": "red", "filled": true, "size": 80}, "encoding": {"tooltip": [{"field": "Year", "type": "nominal"}, {"field": "Total affected", "type": "quantitative"}], "x": {"field": "Year", "type": "nominal"}, "y": {"field": "Total affected", "type": "quantitative"}}}], "data": {"name": "data-ba076c75970c9f4e011f98985d8e3284"}, "height": 400, "title": "Europe: Total Aid Workers Affected Over Time", "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json", "datasets": {"data-ba076c75970c9f4e011f98985d8e3284": [{"Year": "1997", "Group": "Europe", "Total affected": 15}, {"Year": "1998", "Group": "Europe", "Total affected": 9}, {"Year": "1999", "Group": "Europe", "Total affected": 4}, {"Year": "2000", "Group": "Europe", "Total affected": 1}, {"Year": "2001", "Group": "Europe", "Total affected": 6}, {"Year": "2002", "Group": "Europe", "Total affected": 11}, {"Year": "2003", "Group": "Europe", "Total affected": 4}, {"Year": "2004", "Group": "Europe", "Total affected": 2}, {"Year": "2005", "Group": "Europe", "Total affected": 1}, {"Year": "2009", "Group": "Europe", "Total affected": 1}, {"Year": "2014", "Group": "Europe", "Total affected": 2}, {"Year": "2019", "Group": "Europe", "Total affected": 1}, {"Year": "2022", "Group": "Europe", "Total affected": 62}, {"Year": "2023", "Group": "Europe", "Total affected": 28}, {"Year": "2024", "Group": "Europe", "Total affected": 32}, {"Year": "2025", "Group": "Europe", "Total affected": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div class="error" style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
