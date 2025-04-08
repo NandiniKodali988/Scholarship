@@ -14,6 +14,8 @@ execute:
 lightbox: auto
 editor: visual
 embed-resources: true
+bibliography: references.bib
+nocite: '@*'
 ---
 
 ```{=html}
@@ -500,3 +502,8 @@ In Palestine, 63.9% of incidents affected UN personnel, mostly due to combat and
 **Customize Risk Mitigation Based on Conflict Dynamics and Agency Exposure**
 
 With 3,497 affected staff, INGOs face the highest burden globally, particularly in Sudan (49.9%) and Somalia (34.7%). However, a one-size-fits-all approach to security is no longer viable. Agencies must tailor risk mitigation based on both who they are and who they’re operating among. In areas dominated by Non-State Armed Groups—like South Sudan or DR Congo—tactics such as unpredictable routing, discreet travel, and community-based negotiation become essential. In contrast, in contexts with high State Actor involvement—such as Syria or Palestine—agencies must emphasize legal coordination, formal deconfliction processes, and staff training on detention protocols. INGOs should institutionalize tools like real-time route tracking and vetted transport networks, while UN agencies, particularly where their exposure exceeds 25% (e.g., Palestine and Somalia), must prioritize direct coordination with peacekeeping forces and local military command structures. By aligning operational strategy with the nature of the threat, agencies can reduce vulnerability while preserving access.
+
+
+## References
+::: {#refs}
+:::
