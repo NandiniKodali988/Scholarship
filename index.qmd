@@ -5,6 +5,7 @@ format:
     code-copy: true
     code-overflow: wrap
     mainfont: "Monospace"
+    toc: true
 execute:
   echo: true
   warning: false
@@ -353,15 +354,15 @@ function updateActorGroup() {
 
 <iframe src="../plots/heatmap_attackcontext_agency.html" width="100%" height="500px" style="border: none;"></iframe>
 
-This heatmap highlights how different humanitarian agency types experience distinct patterns of violence. INGOs stand out as the most frequently targeted, particularly in ambushes (32.5%) and individual attacks (30.7%), likely due to their broad field presence and frequent travel in high-risk regions.
+This heatmap highlights how different humanitarian agency types experience distinct patterns of violence. INGOs stand out as the most frequently targeted, particularly in ambushes and individual attacks, likely due to their broad field presence and frequent travel in high-risk regions.
 
-The United Nations follows closely, accounting for 17.7% of ambushes and 13.9% of individual attacks, with an additional 11.5% of combat/crossfire incidents. Their prominent presence in conflict-heavy zones like South Sudan, Syria, and Afghanistan likely contributes to their high visibility and vulnerability.
+The United Nations follows closely, ambushes, individual and combat/crossfire incidents. Their prominent presence in conflict-heavy zones like South Sudan, Syria, and Afghanistan likely contributes to their high visibility and vulnerability.
 
-NNGOs, often deeply embedded in local communities, are heavily affected in crossfire (20.2%), underscoring the risks faced by local staff operating without the same security protocols or diplomatic protections available to international agencies.
+NNGOs, often deeply embedded in local communities, are heavily affected in crossfire, underscoring the risks faced by local staff operating without the same security protocols or diplomatic protections available to international agencies.
 
 ICRC and Red Cross affiliates (NRCS and IFRC) face fewer total incidents, but their risks are concentrated in volatile settings like ambushes — particularly during evacuations or frontline missions.
 
-Notably, around 16% of attacks occur in unknown contexts, pointing to significant gaps in reporting and documentation. This lack of clarity can hinder security planning and limit agencies' ability to adapt effectively to emerging threats.
+Notably, around 20% of attacks occur in unknown contexts, pointing to significant gaps in reporting and documentation. This lack of clarity can hinder security planning and limit agencies' ability to adapt effectively to emerging threats.
 
 ## Where Aid Work Is Most Dangerous
 
@@ -471,3 +472,31 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
 </div>
 
 ```
+
+## Conclusions
+
+Violence against humanitarian workers has increased notably since the early 2000s, with spikes aligning with major conflicts in Afghanistan, Syria, and South Sudan. The majority of known attacks are attributed to Non-State Armed Groups, primarily through ambushes, raids, and individual attacks in high-risk zones.
+
+INGOs bear the highest overall burden (3,497 affected), while NNGOs face heightened risks in countries like Syria (53.4%) and Afghanistan (32.8%), often without adequate security infrastructure.
+
+Threat patterns vary by region — State Actors are dominant in Palestine and Syria, while NSAGs lead in Somalia, Sudan, and DR Congo. This variation underscores the need for tailored, context-specific security strategies, rather than a uniform approach.
+
+## Recommendations
+
+**Prioritize Movement Security in Ambush-Prone Zones**
+
+Ambushes account for over 1,400 incidents, making them the most frequent attack context across all actor groups. Countries like South Sudan (50% INGO exposure) and DR Congo (58% INGO exposure) show how road-based aid operations are especially vulnerable. Agencies should implement GPS tracking, route unpredictability, and local area scanning protocols before deployment.
+
+
+**Invest in Security Infrastructure for National NGOs**
+
+National NGOs (NNGOs) account for 32.8% of affected aid workers in Afghanistan and a staggering 53.4% in Syria, yet they often operate with fewer security resources than international counterparts. To bridge this gap, international agencies and donors should allocate dedicated security funding, covering essentials such as field risk assessments, evacuation planning, and real-time alert systems. Joint security planning that includes local staff not only ensures operational sustainability but also empowers NNGOs with equitable protection strategies tailored to the contexts they serve.
+
+**Engage Proactively with State Actors in High-Conflict Areas**
+
+In Palestine, 63.9% of incidents affected UN personnel, mostly due to combat and crossfire involving State Actors. Similar patterns appear in Syria, where State-linked forces are responsible for over half the attacks. Agencies operating in such environments should establish liaison offices for real-time coordination with military and police units. Visibility protocols — such as removing high-visibility logos during volatile events — should be adapted based on the threat profile.
+
+
+**Customize Risk Mitigation Based on Conflict Dynamics and Agency Exposure**
+
+With 3,497 affected staff, INGOs face the highest burden globally, particularly in Sudan (49.9%) and Somalia (34.7%). However, a one-size-fits-all approach to security is no longer viable. Agencies must tailor risk mitigation based on both who they are and who they’re operating among. In areas dominated by Non-State Armed Groups—like South Sudan or DR Congo—tactics such as unpredictable routing, discreet travel, and community-based negotiation become essential. In contrast, in contexts with high State Actor involvement—such as Syria or Palestine—agencies must emphasize legal coordination, formal deconfliction processes, and staff training on detention protocols. INGOs should institutionalize tools like real-time route tracking and vetted transport networks, while UN agencies, particularly where their exposure exceeds 25% (e.g., Palestine and Somalia), must prioritize direct coordination with peacekeeping forces and local military command structures. By aligning operational strategy with the nature of the threat, agencies can reduce vulnerability while preserving access.
