@@ -52,7 +52,8 @@ nocite: '@*'
 
 <div class="banner-wrapper">
   <div class="banner-text">
-    <h1>In Harm’s Way: A Data Story on Aid Worker Vulnerability</h1>
+    <h1>Conflict And Compassion</h1>
+    <h2>A Deeper Dive Into Attacks On Aid Workers</h2>
     <p><strong>Nandini Kodali</strong></p>
   </div>
 </div>
