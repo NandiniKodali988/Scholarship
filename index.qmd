@@ -279,25 +279,25 @@ The data reveals how visibility, operational scope, and perceived affiliations i
 
 ## Who is Behind the Violence?
 
-**Understanding the actors behind attacks** on aid workers is crucial to navigating humanitarian access and security.
+Understanding the actors behind attacks on aid workers is crucial to navigating humanitarian access and security.
 
 
 <iframe src="../plots/piechart_actorgroups.html" width="70%" height="400px" style="border: none;"></iframe>
 
-Nearly **half (48.3%)** of all attacks are attributed to **unknown actors**. This ambiguity often arises in fragile or collapsed states, where **accountability is scarce**, and **perpetrators disappear without investigation**. It also reflects a lack of reporting mechanisms in chaotic or high-risk settings.
+Nearly 48.3% of incidents involve unknown actors, reflecting the chaotic conditions of collapsed states or areas where reporting and accountability are weak.
 
-Among the identified groups, **Non-State Armed Groups (NSAGs)** are responsible for **30.9%** of incidents — a sobering statistic. These include groups like the **Taliban in Afghanistan**, **Al-Shabaab in Somalia**, **ISIS in Syria and Iraq**, and various militias in the **Democratic Republic of Congo** or **South Sudan**. These actors often view aid workers as political actors or threats to local control.
+Non-State Armed Groups are behind 30.9% of attacks — often in places like Afghanistan, Somalia, Syria, and DR Congo. Their motivations range from political opposition to territorial control, viewing aid as interference or leverage.
 
-**State Actors**, including police, military, or paramilitary forces, account for **13%** of incidents. In some cases, this reflects targeted crackdowns or mistaken identity in politically charged environments. For example, humanitarian staff have been caught in **military operations in Gaza, Ukraine**, and **Myanmar**.
+State Actors are responsible for 13% of incidents, often during military operations or in politically sensitive contexts like Gaza and Myanmar.
 
- **Individuals (5.5%)** include cases of **opportunistic crime, revenge attacks**, or personal grievances, often in **urban settings** or low-security regions.
+Individual perpetrators (5.5%) and criminal groups (2.3%) contribute to more opportunistic violence, especially in urban zones or insecure transit corridors.
 
- The smallest group — **Criminal networks (2.3%)** — are often driven by **ransom, looting, or extortion**, particularly in areas where aid trucks and supplies are seen as valuable targets (e.g., Haiti, parts of Latin America).
-
-This breakdown underscores the **political and operational complexity** of humanitarian work. Whether deliberate or opportunistic, these attacks disrupt relief and **undermine trust between communities and responders**.
+These patterns highlight the need for tailored security strategies, grounded in local political understanding and real-time threat assessments.
 
 
-## Attack Contexts by Actor Group
+## How Attack Tactics Vary by Perpetrator
+
+Different types of attackers tend to use different methods. This section explores how attack contexts — such as ambushes, raids, or detentions — vary depending on the actor group involved. Understanding these patterns helps tailor security strategies to specific threats on the ground.
 
 <div class="mb-3">
   <label for="actorSelect" class="form-label fw-bold">Select Actor Group:</label>
@@ -326,7 +326,7 @@ const narratives = {
     <p>Non-state armed groups account for approximately 31% of all recorded attacks. Nearly 48%of these are ambushes (474), followed by raids (175) and detentions (104). These patterns suggest highly coordinated, disruptive intent — often observed in areas with insurgent activity like South Sudan, Somalia, or Syria. Agencies working in such zones should emphasize unpredictable routing, real-time communication protocols, and preemptive negotiations with neutral local stakeholders.</p>
   `,
   "State_Actor": `
-    <p>State-linked forces are responsible for 13% of incidents. Over half occur during combat or crossfire (301), and others involve detentions (44) or raids (32). These typically arise in politically sensitive areas like Gaza or Myanmar. Recommended protocols include active legal briefings, coordination with diplomatic contacts, and clearly marked or de-branded visibility in volatile regions.</p>
+    <p>State-linked forces are responsible for 13% of incidents. Over half occur during combat or crossfire (301), and others involve detentions (44) or raids (32). These typically arise in politically sensitive areas like Gaza or Syria. Recommended protocols include active legal briefings, coordination with diplomatic contacts, and clearly marked or de-branded visibility in volatile regions.</p>
   `,
   "Criminal": `
     <p>Criminal groups represent 2.3% of attacks, but often strike opportunistically. Their attacks are largely individual assaults (52) and ambushes (42), reflecting threats to in-transit aid or goods. Strategies like route randomization, secure cash handling, and trusted driver networks are essential when working in fragile urban environments or along transport corridors.</p>
