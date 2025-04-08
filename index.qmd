@@ -67,7 +67,7 @@ What were once isolated events have gradually turned into more widespread patter
 
 This global overview offers a starting point. In the sections that follow, we’ll take a closer look at where and how these incidents have unfolded over the years, which groups have been affected the most, and how the nature of these threats has evolved.
 
-<iframe src="../plots/worldmap_totalaffected.html" width="100%" height="550px" frameborder="0"></iframe>
+<iframe src="plots/worldmap_totalaffected.html" width="100%" height="550px" frameborder="0"></iframe>
 
 
 ## Escalating Danger: Aid Worker Attacks Since 1997
@@ -140,7 +140,7 @@ The general trend points to an important shift: operating in conflict zones has 
 
       <div class="modal-body">
         <!-- Plot iframe -->
-        <iframe src="../plots/total_affected/africa_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+        <iframe src="plots/total_affected/africa_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
 
         <!-- Narrative -->
         <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
@@ -168,7 +168,7 @@ The general trend points to an important shift: operating in conflict zones has 
 
       <div class="modal-body">
         <!-- Plot iframe -->
-        <iframe src="../plots/total_affected/asia_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+        <iframe src="plots/total_affected/asia_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
 
         <!-- Narrative -->
         <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
@@ -194,7 +194,7 @@ The general trend points to an important shift: operating in conflict zones has 
 
       <div class="modal-body">
         <!-- Plot iframe -->
-        <iframe src="../plots/total_affected/europe_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+        <iframe src="plots/total_affected/europe_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
 
         <!-- Narrative -->
         <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
@@ -220,7 +220,7 @@ The general trend points to an important shift: operating in conflict zones has 
 
       <div class="modal-body">
         <!-- Embedded Plot -->
-        <iframe src="../plots/total_affected/middle_east_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+        <iframe src="plots/total_affected/middle_east_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
 
         <!-- Narrative -->
         <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
@@ -246,7 +246,7 @@ The general trend points to an important shift: operating in conflict zones has 
 
       <div class="modal-body">
         <!-- Embedded plot -->
-        <iframe src="../plots/total_affected/south_america_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
+        <iframe src="plots/total_affected/south_america_total_affected.html" width="100%" height="500px" style="border: none;"></iframe>
 
         <!-- Narrative -->
         <div style="margin-top: 1.2rem; font-size: 0.95rem; color: #333;">
@@ -268,7 +268,7 @@ The general trend points to an important shift: operating in conflict zones has 
 This bump chart reveals how the burden of violence has shifted across different types of humanitarian agencies from, ranked by their — including those killed, wounded, or kidnapped.
 
 
-<iframe src="../plots/bumpchart_totalaffected_agency.html" width="100%" height="500px" style="border: none;"></iframe>
+<iframe src="plots/bumpchart_totalaffected_agency.html" width="100%" height="500px" style="border: none;"></iframe>
 
 International NGOs (INGOs) consistently top the chart with 3,497 affected workers, reflecting their widespread presence in high-risk areas. National NGOs (NNGOs) follow with 2,055 affected, often operating in frontline roles with limited protection.
 
@@ -286,7 +286,7 @@ The data reveals how visibility, operational scope, and perceived affiliations i
 Understanding the actors behind attacks on aid workers is crucial to navigating humanitarian access and security.
 
 
-<iframe src="../plots/piechart_actorgroups.html" width="70%" height="400px" style="border: none;"></iframe>
+<iframe src="plots/piechart_actorgroups.html" width="70%" height="400px" style="border: none;"></iframe>
 
 Nearly 48.3% of incidents involve unknown actors, reflecting the chaotic conditions of collapsed states or areas where reporting and accountability are weak.
 
@@ -316,7 +316,7 @@ Different types of attackers tend to use different methods. This section explore
 
 <!-- Plot container -->
 <div id="actorPlot" class="my-4">
-  <iframe src="../plots/attack_contexts/Non-state_Armed_Group.html" width="100%" height="550px" style="border: none;"></iframe>
+  <iframe src="plots/attack_contexts/Non-state_Armed_Group.html" width="100%" height="550px" style="border: none;"></iframe>
 </div>
 
 <!-- Narrative container -->
@@ -348,14 +348,14 @@ function updateActorGroup() {
   const plot = document.querySelector("#actorPlot iframe");
   const narrative = document.getElementById("actorNarrative");
 
-  plot.src = `../plots/attack_contexts/${select}.html`;
+  plot.src = `plots/attack_contexts/${select}.html`;
   narrative.innerHTML = narratives[select];
 }
 </script>
 
 ## What Risks Do Different Agencies Face?
 
-<iframe src="../plots/heatmap_attackcontext_agency.html" width="100%" height="500px" style="border: none;"></iframe>
+<iframe src="plots/heatmap_attackcontext_agency.html" width="100%" height="500px" style="border: none;"></iframe>
 
 This heatmap reveals distinct threat patterns across humanitarian agency types. INGOs face the highest number of attacks, particularly ambushes and individual assaults—likely due to their wide presence and mobile operations in conflict zones.
 
@@ -369,7 +369,7 @@ Strikingly, nearly 1 in 5 attacks occur in undocumented contexts, highlighting u
 
 ## Where Aid Work Is Most Dangerous
 
-<iframe src="../plots/grp_context_top7/total_affected_7.html" width="100%" height="500px" style="border: none;"></iframe>
+<iframe src="plots/grp_context_top7/total_affected_7.html" width="100%" height="500px" style="border: none;"></iframe>
 
 
 This chart shows the seven countries with the highest number of aid workers affected since 1997 — a reflection of long-running conflicts and operational challenges.
@@ -391,7 +391,7 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
   <!-- Afghanistan -->
   <div style="min-width: 100%; scroll-snap-align: start;">
     <h4 class="mb-3">Afghanistan</h4>
-    <iframe src="../plots/grp_context_top7/Afghanistan.html" width="100%" height="550px" style="border: none;"></iframe>
+    <iframe src="plots/grp_context_top7/Afghanistan.html" width="100%" height="550px" style="border: none;"></iframe>
     <p class="mt-3">
       Afghanistan's threat landscape reveals a deeply entrenched pattern of targeted violence. The Sankey diagram shows that the majority of incidents originate from Non-State Armed Groups and Unknown actors, with ambushes and individual attacks being the most common contexts. These tactics, long associated with insurgent groups like the Taliban, reflect the strategic targeting of humanitarian workers in contested zones.
     </p>
@@ -403,7 +403,7 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
   <!-- South Sudan -->
   <div style="min-width: 100%; scroll-snap-align: start;">
     <h4 class="mb-3">South Sudan</h4>
-    <iframe src="../plots/grp_context_top7/South_Sudan.html" width="100%" height="550px" style="border: none;"></iframe>
+    <iframe src="plots/grp_context_top7/South_Sudan.html" width="100%" height="550px" style="border: none;"></iframe>
     <p class="mt-3">
       In South Sudan, attacks on aid workers are primarily driven by Unknown actors and Non-State Armed Groups, contributing heavily to ambushes, raids, and individual attacks. This reflects the region’s protracted civil conflict, where shifting allegiances and fragmented militias create a chaotic operating environment.
     </p>
@@ -415,7 +415,7 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
   <!-- Sudan -->
   <div style="min-width: 100%; scroll-snap-align: start;">
     <h4 class="mb-3">Sudan</h4>
-    <iframe src="../plots/grp_context_top7/Sudan.html" width="100%" height="550px" style="border: none;"></iframe>
+    <iframe src="plots/grp_context_top7/Sudan.html" width="100%" height="550px" style="border: none;"></iframe>
     <p class="mt-3">
       In Sudan, the majority of attacks are carried out by Unknown actors, with ambushes being the most common context. Non-State Armed Groups also play a significant role, engaging in raids and individual attacks. These patterns reflect the complexity of overlapping militia and rebel activity.
     </p>
@@ -427,7 +427,7 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
   <!-- Syria -->
   <div style="min-width: 100%; scroll-snap-align: start;">
     <h4 class="mb-3">Syria</h4>
-    <iframe src="../plots/grp_context_top7/Syrian_Arab_Republic.html" width="100%" height="550px" style="border: none;"></iframe>
+    <iframe src="plots/grp_context_top7/Syrian_Arab_Republic.html" width="100%" height="550px" style="border: none;"></iframe>
     <p class="mt-3">
       In Syria, State Actors dominate the attack landscape, particularly through combat and crossfire scenarios. These reflect the blurred lines between humanitarian work and militarized zones in Syria’s civil conflict.
     </p>
@@ -439,7 +439,7 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
   <!-- Somalia -->
   <div style="min-width: 100%; scroll-snap-align: start;">
     <h4 class="mb-3">Somalia</h4>
-    <iframe src="../plots/grp_context_top7/Somalia.html" width="100%" height="550px" style="border: none;"></iframe>
+    <iframe src="plots/grp_context_top7/Somalia.html" width="100%" height="550px" style="border: none;"></iframe>
     <p class="mt-3">
       Somalia’s Sankey diagram highlights a threat landscape shaped by Unknown actors and Non-State Armed Groups, especially via ambushes and individual attacks. These patterns reflect the persistent instability posed by armed factions like Al-Shabaab.
     </p>
@@ -451,7 +451,7 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
   <!-- Palestine -->
   <div style="min-width: 100%; scroll-snap-align: start;">
     <h4 class="mb-3">Occupied Palestinian Territories</h4>
-    <iframe src="../plots/grp_context_top7/Occupied_Palestinian_Territories.html" width="100%" height="550px" style="border: none;"></iframe>
+    <iframe src="plots/grp_context_top7/Occupied_Palestinian_Territories.html" width="100%" height="550px" style="border: none;"></iframe>
     <p class="mt-3">
       In Palestine, the primary attack context is combat or crossfire, predominantly involving State Actors. This is consistent with the high-tension environments in Gaza and the West Bank, where operations overlap with active security zones.
     </p>
@@ -463,7 +463,7 @@ Syria, Somalia, and Palestine face continued risks tied to armed groups, militar
   <!-- DR Congo -->
   <div style="min-width: 100%; scroll-snap-align: start;">
     <h4 class="mb-3">DR Congo</h4>
-    <iframe src="../plots/grp_context_top7/DR_Congo.html" width="100%" height="550px" style="border: none;"></iframe>
+    <iframe src="plots/grp_context_top7/DR_Congo.html" width="100%" height="550px" style="border: none;"></iframe>
     <p class="mt-3">
       DR Congo’s Sankey plot is marked by frequent ambushes and raids, largely executed by Non-State Armed Groups and Unknown actors. These tactics reflect the fragmented nature of militias and their targeting of humanitarian mobility routes.
     </p>

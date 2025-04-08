@@ -1,26 +1,25 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Conflict and Compassion"
+  site-url: "https://nandinikodali988.github.io/Scholarship/"
   navbar:
     left:
       - text: Home
         file: index.qmd
-  page-footer:
-    center: "© 2025 Nandini Kodali"
 
 format:
   html:
-    theme: default
-    css: styles.css  # Add custom styles if you want to externalize the banner style
     toc: true
     smooth-scroll: true
+    embed-resources: true
     code-copy: true
     code-overflow: wrap
-    embed-resources: true
     mainfont: "Monospace"
-
+execute:
+  echo: true
+  freeze: auto
 bibliography: references.bib
 nocite: '@*'
-output-dir: .
