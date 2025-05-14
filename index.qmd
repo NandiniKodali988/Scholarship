@@ -132,7 +132,6 @@ The general trend points to an important shift: operating in conflict zones has 
 
 
 <!-- Modal: Africa -->
-<!-- Modal: Africa -->
 <div class="modal fade" id="modalAfrica" tabindex="-1" aria-labelledby="modalAfricaLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
     <div class="modal-content">
@@ -159,7 +158,6 @@ The general trend points to an important shift: operating in conflict zones has 
 </div>
 
 
-<!-- Modal: Asia -->
 <!-- Modal: Asia -->
 <div class="modal fade" id="modalAsia" tabindex="-1" aria-labelledby="modalAsiaLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl modal-dialog-centered">
