@@ -12,7 +12,6 @@ website:
       - text: Home
         file: index.qmd
 
-
 format:
   html:
     toc: true
