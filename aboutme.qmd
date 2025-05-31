@@ -2,11 +2,6 @@
 title: "About Me"
 bibliography: []
 nocite: ""
-format:
-  html:
-    includes:
-      in-header: fontawesome.html
-
 ---
 
 ![](plots/Formal_1_Resized.jpg){fig-align="center" width="30%"}
