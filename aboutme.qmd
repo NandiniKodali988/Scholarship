@@ -52,7 +52,7 @@ I’m now focused on applying this technical skillset across diverse areas, leve
   }
 
   .social-row a:hover {
-    background-color: #6a88a8; /* Slightly lighter on hover */
+    background-color: #6a88a8; 
   }
 
   .social-row i {
