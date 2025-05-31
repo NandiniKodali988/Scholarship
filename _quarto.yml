@@ -6,8 +6,11 @@ website:
   title: "Conflict and Compassion"
   navbar:
     left:
+      - text: About me
+        file: aboutme.qmd
       - text: Home
         file: index.qmd
+
 
 format:
   html:
