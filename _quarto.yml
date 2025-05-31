@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Conflict and Compassion"
+  favicon: "plots/Formal_1_Resized.jpg"
   navbar:
     left:
       - text: About me
@@ -20,6 +21,9 @@ format:
     code-copy: true
     code-overflow: wrap
     mainfont: "Monospace"
+    includes:
+      in-header: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 execute:
   echo: true
   freeze: auto

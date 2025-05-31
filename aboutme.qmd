@@ -2,6 +2,11 @@
 title: "About Me"
 bibliography: []
 nocite: ""
+format:
+  html:
+    includes:
+      in-header: fontawesome.html
+
 ---
 
 ![](plots/Formal_1_Resized.jpg){fig-align="center" width="30%"}
@@ -37,12 +42,17 @@ I’m now focused on applying this technical skillset across diverse areas, leve
     align-items: center;
     gap: 0.5rem;
     padding: 10px 20px;
-    border: 1px solid #555;
     border-radius: 5px;
     text-decoration: none;
-    color: #333;
+    background-color: #517699;
+    color: white;
     font-size: 0.95rem;
-    white-space: nowrap;         
+    white-space: nowrap;  
+    transition: background-color 0.2s ease;       
+  }
+
+  .social-row a:hover {
+    background-color: #6a88a8; /* Slightly lighter on hover */
   }
 
   .social-row i {
@@ -52,19 +62,15 @@ I’m now focused on applying this technical skillset across diverse areas, leve
 
 <div class="social-row">
 
-  <a href="https://nandinikodali.georgetown.domains/portfolio/" target="_blank">
-    <i class="fas fa-globe"></i> Website
+  <a href="https://nandinikodali.georgetown.domains/portfolio/" target="_blank"> Website
   </a>
 
-  <a href="https://github.com/NandiniKodali988" target="_blank">
-    <i class="fab fa-github"></i> GitHub
+  <a href="https://github.com/NandiniKodali988" target="_blank"> GitHub
   </a>
 
-  <a href="https://www.linkedin.com/in/nandini-kodali/" target="_blank">
-    <i class="fab fa-linkedin"></i> LinkedIn
+  <a href="https://www.linkedin.com/in/nandini-kodali/" target="_blank"> LinkedIn
   </a>
 
-  <a href="https://nandinikodali.georgetown.domains/portfolio/resume/Resume_May2025.pdf" target="_blank">
-    <i class="fa-solid fa-file-lines"></i> Resume
+  <a href="https://nandinikodali.georgetown.domains/portfolio/resume/Resume_May2025.pdf" target="_blank"> Resume
   </a>
 </div>
